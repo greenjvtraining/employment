@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Resume Form</h1>
+<hr>
+<div>
+	<form action="writeProc" method="POST">
+		id : <input type="text" name="member" th:value="${session.member.mid}"><br>
+		학력1 : <input type="text" name="education"><br>
+		학력2 : <input type="text" name="education"><br>
+		학력3 : <input type="text" name="education"><br>
+		자기소개 : <input type="text" name="coverLetter"><br>
+		<input type="submit" value="등록">
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<p th:if="${session.member ne null}">[[${session.member.mid}]]</p>
+<hr>
+<h1>Index</h1>
+<hr>
+<ul>
+	<li><a href="/regForm">회원가입</a></li>
+	<li><a href="/loginForm">로그인</a></li>
+	<li><a href="/writeForm">이력서작성</a></li>
+	<li><a href="/mypage">마이페이지보기</a></li>
+	<li><a href="/mypage2">마이페이지2보기</a></li>
+</ul>
+</body>
+</html>

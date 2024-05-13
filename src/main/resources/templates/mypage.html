@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>My Page</h1>
+<hr>
+이력서 목록<br>
+<p th:each="resume : ${list}">[[${resume}]]</p>
+</body>
+</html>
